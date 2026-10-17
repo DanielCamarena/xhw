@@ -1,0 +1,43 @@
+{
+  "tool": "Ocetrac DeepTrack",
+  "version": "0.1.7",
+  "source_file": "ocetrac/DeepTrack/tracker.py",
+  "source_sha256": "7bb8d927b0066a7b2c58b9cbecbf4f847403d81b5557a790a3bfb0734e4887d1",
+  "seeds": [
+    100,
+    101,
+    102,
+    103
+  ],
+  "shape": [
+    30,
+    5,
+    14,
+    16
+  ],
+  "sigma": [
+    1.5,
+    0.8,
+    1.0,
+    1.0
+  ],
+  "thresholds": [
+    0.0,
+    0.1,
+    0.3,
+    0.5
+  ],
+  "spatial_connectivity": 6,
+  "comparison": {
+    "labels": "exact",
+    "known_deviation": "strict containment against the union of an identity, rather than inclusive pairwise patch overlap"
+  },
+  "files": {
+    "outputs.npz": "cefe7a433a0a1de8031f7e03152a174d9d8ebf7215dd4341ec5cc2c068b42dfa"
+  },
+  "environment": {
+    "numpy": "1.26.4",
+    "scipy": "1.16.3",
+    "xarray": "2026.7.0"
+  }
+}

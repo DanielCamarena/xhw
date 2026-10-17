@@ -1,0 +1,26 @@
+{
+  "generated_utc": "2026-10-02T19:14:09+00:00",
+  "climdex_pcic": {
+    "commit": "d82bcfe811c211ba49a2e6f0bee46557b43562d7",
+    "archive_sha256": "30d0ba0dae3672b714e3666c32944d781c7321fcb42762d9e9e47efd482c0eb3",
+    "license": "GPL-3"
+  },
+  "pcict": {
+    "archive": "PCICt_0.5-4.4.tar.gz",
+    "sha256": "a797d90f7ac085674083dc5fefeff03823371b1228e0f0daa79fd3593bdd6eaa",
+    "license": "GPL-2"
+  },
+  "session": [
+    "R version 4.3.3 (2024-02-29)",
+    "climdex.pcic 1.2.0",
+    "PCICt 0.5.4.4",
+    "Rcpp 1.1.2"
+  ],
+  "files": {
+    "inputs.csv": "aff2b20255563cb6f28024a8be5147c5d5bd783ab3ef4fb429060ab9ac6b7f45",
+    "thresholds.csv": "dd739b7b62602764c195917a2b43c187ff194715928d5ec45e2006aea6171ffe",
+    "climpact_hw.csv": "07ee894289073ffe91648e607655983919a8c7dff6540b10289db6e333a4a4a7",
+    "tx90p_annual.csv": "046e33657aacb92ffc830862c21bd4dd1b9baa28731f5396a809ab005ff84da3",
+    "session.txt": "b1b7ef90e43bd0701e52d0d74301643dc0aa0497b3c436b720cabab480bf3933"
+  }
+}

@@ -1,0 +1,249 @@
+{
+  "case": "synthetic",
+  "executed_utc": "2026-10-17T14:36:02.532165+00:00",
+  "review_status": "executed; deterministic expectations checked",
+  "platform": "Windows",
+  "python": "3.12.10",
+  "versions": {
+    "xhw": "0.0.1",
+    "numpy": "2.5.4",
+    "xarray": "2026.7.0",
+    "scipy": "1.16.3",
+    "matplotlib": "3.11.2",
+    "h5netcdf": "1.8.1",
+    "nbformat": "5.11.1",
+    "nbclient": "0.11.0"
+  },
+  "code": {
+    "package_modules_sha256": {
+      "__init__.py": "09401bf57056e700fcf8ed555e242e8157368a0842e6352467f053be3b3c3a81",
+      "_aggregate.py": "23690b0335e0c7aef7b8334680c286031d1d67686dbd9d378401fc95151e955d",
+      "_baseline.py": "23f0d4dfc0b2092b8549a4e55a38a9532c00e2497d34b9dad009024c11814cd8",
+      "_catalog.py": "58950d192c666e3dd7187de236b12d35483cf4107d83f3f7a2d80ad0231b38ba",
+      "_detect.py": "b73ce1551d5d03f2d0e355b49108380b3064c26c534ed70c419c78ff1b8b8ea7",
+      "_dynamic.py": "be3d6eb5297ca81cd1b2c4d743b6b630fdd79b4187e3e8bfddb81eaece285648",
+      "_errors.py": "7ea146c05b5d6c029aa451c8ce967b7fe167bbbf7f6382257a5d5c0d25d82326",
+      "_events.py": "e3ae8671b2daa8318619f5e5f8881ab1d7c50985e68cd0344607611d3dcd0dd9",
+      "_gam.py": "83ba55e53ed77272730e4706330149f6188d343e5b26a970d4f1e6667e551575",
+      "_ingest.py": "82f083c996d535d2f63a29b1029b33429f9bcb5b8f1ffb606a4023bf7dea14e8",
+      "_lineage.py": "c3f5db9b55e3a0a8fcb8f32105f9e733ec4984f5bf4b55e82eb9e6ae85a267ad",
+      "_lineage_metrics.py": "82a39539f27f10ac0b176d643387fe333b86777aaed4913e4b3980d020bc704b",
+      "_mask.py": "3e9d75607537cbf489a58a6afbc1678adf5d6be2cddf97e937d02b2393294bcf",
+      "_morph.py": "4d7e2734ae3f45f4bc075fd67b59f5447d3e49c2c9ca1dddbb090d3f360597ff",
+      "_objects.py": "f81a9ef7703d58d756d86e2e95cec5cfdc15b46611be32867581b9cdee558771",
+      "_partition.py": "813e16ae7beecb7dd78af11db1a1be445891d370b793edb4f4db0ba79799618b",
+      "_rates.py": "5c6928d2fa6dfa785c95ea8501fccb5d580696fc0de9f847b33ae91b537995ca",
+      "_recipe.py": "2665de9a89f5568de2993431194be14e46cd77a0ef12e7b5b2c7cfa933f95b62",
+      "_schema.py": "6e4c4702c24e239132e070fe95064c1bf170865a60423b8d5e49346ebbdce665",
+      "_specs.py": "2f183cb207084e7065b6493537c8900e98004105924b4b9ec78935b416418992",
+      "_ssa.py": "d9ce7a4e1aedb5ed8fd40bba50a8201383d13b0156d7d8654f395aa99b0e9f04",
+      "_stl.py": "35ddb4a1c6ae700e6b949e472f862742a4ad2de3ea7fea36535833bb14027fe1",
+      "_track.py": "ba399c76559ae977db43db906d573e0fe4e9e4971e2178ab07ee6bdba88b56d7"
+    },
+    "example_sources_sha256": {
+      "_data.py": "19ffb21bb8fc648456e75ebe545dc2d1fda200d30f06a3f1fe971bc18a45d403",
+      "_report.py": "872be5958ea5b2361812d20a7f4d34c908d1e4cd08f8ae1182c83ac7af8e8218",
+      "api_walkthrough.py": "417e44c9f0bda7ae2248a500b6d632e2feea5d3d66376d164094db51e7d440d4",
+      "execute_notebooks.py": "5f0772d8e92a2b4afd27dbba0dcb72ca69419477da54de3c817919571247474a",
+      "exploration.py": "4e9aec8606b6ca5fbffac401830a802e86c3f314a963afea01c07bd792a808b6",
+      "plotting.py": "819a7b617f7cc7adef65c34117e7865caf66b93c9a267a3f81eebee258bf9592",
+      "profiles.py": "59ace84327d384d63c717314f1d765c39cd52252e38cff4b5255ad27fc80aaa4",
+      "provenance.py": "66ee55253a87357f09dba7126d86b0d84a683cf64d91348230b6a8a050b80740",
+      "quickstart.py": "e89f30405b6e782af51f804e0c2dc9849e53300e83fe75ff35a64dfd0dc7e6d5",
+      "synthetic.py": "a8386c20da22b4ce35786cf62fefb66e264cc383651421ecc129804c9386bf0c",
+      "synthetic_peru.py": "d664e4157b535f19245cde0cd051b77fd81c03b2878fb339025379ea96cda7b4"
+    },
+    "example_base_revision": null,
+    "example_worktree_dirty": null
+  },
+  "source": {
+    "type": "SourceRef",
+    "schema_version": "0.1",
+    "fields": {
+      "dataset_id": "synthetic:split-merge-v1",
+      "variable": "sst",
+      "accessed": "2026-10-10",
+      "product_status": "final",
+      "version": null,
+      "query": null,
+      "checksum": "sha256:0ec2c2e559a198f355f6f6c4b8c5eb2d8d3d559c79f99609341854334e5bd9dd"
+    }
+  },
+  "grid": {
+    "type": "GridSpec",
+    "schema_version": "0.1",
+    "fields": {
+      "support": "surface",
+      "topology": "structured",
+      "time_dim": "time",
+      "spatial_dims": [
+        "lat",
+        "lon"
+      ],
+      "coords": {
+        "lat": "lat",
+        "lon": "lon",
+        "depth": null,
+        "along": null
+      },
+      "calendar": "standard",
+      "frequency": "1D",
+      "time_axes": "single",
+      "periodic_x": false,
+      "cell_measure": {
+        "kind": "area",
+        "var": "cell_area",
+        "units": "m2"
+      },
+      "vertical": null,
+      "domain": "ocean",
+      "domain_mask": "domain_mask",
+      "domain_fraction": null,
+      "native": {
+        "product": "synthetic",
+        "resolution": "1 degree",
+        "is_native": true,
+        "regridded_from": null
+      }
+    }
+  },
+  "baseline": {
+    "type": "BaselineSpec",
+    "schema_version": "0.1",
+    "fields": {
+      "method": "fixed_climatology",
+      "computed_on": "temperature",
+      "reference_period": [
+        "1973-01-01",
+        "2002-12-31"
+      ],
+      "source": {
+        "dataset_id": "synthetic:split-merge-v1",
+        "variable": "sst",
+        "accessed": "2026-10-10",
+        "product_status": "final",
+        "version": null,
+        "query": null,
+        "checksum": "sha256:0ec2c2e559a198f355f6f6c4b8c5eb2d8d3d559c79f99609341854334e5bd9dd"
+      },
+      "doy_window_days": 11,
+      "smoothing_window_days": 31,
+      "percentile_estimator": "hyndman_fan_7",
+      "leap_day_policy": "hobday_366_interp",
+      "min_samples": 264,
+      "fit_mode": "retrospective",
+      "available_until": null,
+      "params": [],
+      "in_base_correction": "none"
+    }
+  },
+  "definition": {
+    "type": "DefinitionSpec",
+    "schema_version": "0.1",
+    "fields": {
+      "profile": "hobday2016",
+      "phenomenon": "mhw",
+      "variable": "sea_surface_temperature",
+      "combination": "single",
+      "daily_statistic": "native",
+      "day_definition": "native",
+      "tail": "upper",
+      "comparator": ">",
+      "threshold_kind": "percentile",
+      "percentile": 90.0,
+      "absolute_threshold": null,
+      "min_duration_days": 5,
+      "max_gap_days": 2,
+      "join_rule": "qualify_then_join",
+      "missing_policy": "as_non_exceedance",
+      "season_months": null,
+      "category_scheme": null,
+      "components": null
+    }
+  },
+  "recipe": {
+    "type": "SpatialRecipe",
+    "schema_version": "0.1",
+    "fields": {
+      "input_layer": "event_membership",
+      "steps": [
+        {
+          "op": "segment",
+          "footprint": {
+            "kind": "connectivity",
+            "connectivity": 1,
+            "radius_km": null,
+            "offsets": null,
+            "vertical_gap_m": null
+          },
+          "min_area": {
+            "kind": "none",
+            "value": null,
+            "floor_km2": null
+          },
+          "min_duration_days": null,
+          "max_gap_days": null,
+          "join_rule": null,
+          "min_overlap": null,
+          "link_measure": null,
+          "dominance_measure": null,
+          "tie_rule": null,
+          "branch_rule": null
+        },
+        {
+          "op": "track",
+          "footprint": null,
+          "min_area": null,
+          "min_duration_days": 5,
+          "max_gap_days": 0,
+          "join_rule": null,
+          "min_overlap": 0.1,
+          "link_measure": null,
+          "dominance_measure": null,
+          "tie_rule": null,
+          "branch_rule": null
+        }
+      ]
+    }
+  },
+  "link_policy": {
+    "type": "LinkPolicy",
+    "schema_version": "0.1",
+    "fields": {
+      "measure": "overlap_smaller",
+      "threshold": 0.1,
+      "max_gap_days": 0,
+      "dominance_measure": "overlap_smaller",
+      "tie_rule": "lowest_id"
+    }
+  },
+  "extra": {
+    "selection": "1973-01-01 to 2003-01-31; 7 x 9 surface",
+    "expected_main_event": "20 patches, 4 branches, 1 split, 1 merge"
+  },
+  "metrics": {
+    "temporal": {
+      "events": 20,
+      "exceedance_cell_days": 215,
+      "event_cell_days": 216,
+      "joined_cell_days": 1,
+      "valid_cell_days": 692244,
+      "filled_cell_days": 1,
+      "max_duration_days": 15
+    },
+    "spatial": {
+      "patches": 56,
+      "tracks": 5,
+      "branches": 8,
+      "spacetime_events": 5,
+      "splits": 1,
+      "merges": 1,
+      "max_size": 158736510356.7149,
+      "size_units": "m2",
+      "max_size_time": 2197868682596.9768,
+      "max_duration_days": 15
+    },
+    "main_event_daily_patches": 20,
+    "morphology_added_cell_days": 25
+  }
+}

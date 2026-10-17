@@ -1,0 +1,4 @@
+R version 4.3.3 (2024-02-29)
+climdex.pcic 1.2.0
+PCICt 0.5.4.4
+Rcpp 1.1.2

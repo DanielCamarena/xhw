@@ -1,0 +1,42 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "xhw"
+version = "0.0.1"
+description = "Thermal extremes, dynamic baselines, spatial objects and their genealogy on native grids"
+readme = "README.md"
+authors = [{name = "Daniel Camarena", email = "vcamarenap@uni.pe"}]
+license = "Apache-2.0"
+license-files = ["LICENSE", "NOTICE"]
+requires-python = ">=3.11"
+dependencies = ["numpy>=1.24", "xarray>=2023.1", "scipy>=1.11"]
+
+[project.optional-dependencies]
+parallel = ["dask[array]>=2023.1"]
+dynamic = ["scipy>=1.16", "statsmodels>=0.15", "pygam>=0.12"]
+dev = [
+    "pytest>=7", "ruff>=0.8", "h5netcdf[h5py]>=1.0", "dask[array]>=2023.1",
+    "scipy>=1.16", "statsmodels>=0.15", "pygam>=0.12", "matplotlib>=3.8",
+    "plotly>=6", "ipywidgets>=8.1", "pillow>=10",
+]
+
+[tool.setuptools]
+include-package-data = false
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["xhw"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"
+
+[tool.ruff]
+target-version = "py311"
+line-length = 100
+extend-exclude = ["build", "dist"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I"]

@@ -1,0 +1,23 @@
+{
+  "window": 1830,
+  "groups": {
+    "trend": [
+      0
+    ],
+    "annual": [
+      1,
+      2
+    ],
+    "semiannual": [
+      3,
+      4
+    ]
+  },
+  "solver": "numpy_standard",
+  "standardize": false,
+  "ssalib": "0.1.3",
+  "files": {
+    "inputs.txt": "dc806e7b85fae5b0c2c939e23b779e4eeb0bf7430455d0c8d426dd979fffb930",
+    "ssalib.csv": "467f364d01275195eea40a4b4b6ee9aa42240034be4d232813a33815e04f68a7"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "thresholds": [
+    0.0,
+    0.25,
+    0.5,
+    0.75,
+    1.0
+  ],
+  "boundary_thresholds": [
+    0.5,
+    0.51
+  ],
+  "seeds": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "shape": [
+    14,
+    16,
+    20
+  ],
+  "line_shape": [
+    10,
+    40
+  ],
+  "volume_shape": [
+    6,
+    5,
+    10,
+    12
+  ],
+  "tools": {
+    "ocetrac": "0.1.7 (b76a43f5db60a5933cc34fa750ebe910fe43da09)",
+    "marEx": "4.1.2 (3444b093d40da130f845ac6ce99e5e105202864e)",
+    "numpy": "2.5.3",
+    "scipy": "1.18.1",
+    "scikit-image": "0.26.0",
+    "dask": "2026.8.0",
+    "dask-image": "2026.5.0"
+  },
+  "files": {
+    "labels.npz": "9f5f844da4ffe07a6b82d6ed6690d6f8286d6d12466f2d605900fc9cd7853982"
+  }
+}

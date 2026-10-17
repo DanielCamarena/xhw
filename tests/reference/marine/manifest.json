@@ -1,0 +1,96 @@
+{
+  "tool": "marineHeatWaves",
+  "commit": "d7292bf08ade0af213fa760b0d7e4adfe5f52894",
+  "source_file": "marineHeatWaves.py",
+  "source_sha256": "3f47a51382f68894f34deaf6b466c944cf4f88f92a09a7f00f6d6acd609a0db8",
+  "cases": {
+    "seed1_hot": {
+      "seed": 1,
+      "coldSpells": false,
+      "climatologyPeriod": [
+        1982,
+        2021
+      ]
+    },
+    "seed1_cold": {
+      "seed": 1,
+      "coldSpells": true,
+      "climatologyPeriod": [
+        1982,
+        2021
+      ]
+    },
+    "seed2_hot": {
+      "seed": 2,
+      "coldSpells": false,
+      "climatologyPeriod": [
+        1982,
+        2021
+      ]
+    },
+    "seed2_cold": {
+      "seed": 2,
+      "coldSpells": true,
+      "climatologyPeriod": [
+        1982,
+        2021
+      ]
+    },
+    "seed3_hot": {
+      "seed": 3,
+      "coldSpells": false,
+      "climatologyPeriod": [
+        1982,
+        2021
+      ]
+    },
+    "seed3_cold": {
+      "seed": 3,
+      "coldSpells": true,
+      "climatologyPeriod": [
+        1982,
+        2021
+      ]
+    },
+    "seed4_hot": {
+      "seed": 4,
+      "coldSpells": false,
+      "climatologyPeriod": [
+        1991,
+        2020
+      ]
+    },
+    "seed5_hot": {
+      "seed": 5,
+      "coldSpells": false,
+      "climatologyPeriod": [
+        1982,
+        2021
+      ]
+    }
+  },
+  "settings": {
+    "pctile": 90,
+    "windowHalfWidth": 5,
+    "smoothPercentileWidth": 31,
+    "minDuration": 5,
+    "maxGap": 2
+  },
+  "comparison": {
+    "absolute_tolerance": 1e-09,
+    "relative_tolerance": 0,
+    "divergences": [
+      "strict reference-period window",
+      "missing-day intensity",
+      "decline rate with peak on final record day"
+    ]
+  },
+  "files": {
+    "outputs.npz": "ee447f844174fbf77376ab8aee2a7f26fd1389e4fb62eb2e9da84dacee4ad1d5"
+  },
+  "environment": {
+    "numpy": "1.26.4",
+    "scipy": "1.16.3",
+    "xarray": "2026.7.0"
+  }
+}

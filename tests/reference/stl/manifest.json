@@ -1,0 +1,29 @@
+{
+  "trend_window": 3661,
+  "low_pass_window": 367,
+  "period": 366,
+  "cases": {
+    "periodic": {
+      "seasonal_window": "periodic",
+      "robust": 0
+    },
+    "window7": {
+      "seasonal_window": 7,
+      "robust": 0
+    },
+    "periodic_robust": {
+      "seasonal_window": "periodic",
+      "robust": 1
+    }
+  },
+  "session": [
+    "R version 4.3.3 (2024-02-29)",
+    "stlplus 0.5.2"
+  ],
+  "files": {
+    "inputs.csv": "7ceede2ef4ad24ea78d75dae1a84778581a91b6c3dd9cf64e07dd9948e97e8a5",
+    "periodic.csv": "8f71280e9fd63cf0acc4d8f7f151b0dd06219d18ca4222648fcdbd7c167e1306",
+    "window7.csv": "d1fb3eac6689f00d153cf3018590178c5c704dffd4f2c9758ee400269f23ad13",
+    "periodic_robust.csv": "e30286ef8e939a29b0a5912b37cc35aed082d23a116a3acb769b9b739d1fd809"
+  }
+}

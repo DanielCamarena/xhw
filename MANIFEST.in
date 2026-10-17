@@ -1,0 +1,10 @@
+include README.md LICENSE NOTICE pyproject.toml .gitattributes .gitignore
+recursive-include docs *.md
+recursive-include docs *.png *.gif *.svg *.json
+recursive-include examples *.py *.ipynb *.txt *.json
+recursive-include tests *.py *.json *.csv *.txt *.npz
+global-exclude *.py[cod]
+prune build
+prune dist
+
+recursive-include tools *.py

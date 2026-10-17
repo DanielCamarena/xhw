@@ -1,0 +1,30 @@
+{
+  "names": [
+    "blobs1",
+    "blobs2",
+    "blobs3",
+    "blobs4"
+  ],
+  "threshold": 0.5,
+  "settings": {
+    "R_fill": 0,
+    "T_fill": 0,
+    "area_filter_absolute": 1,
+    "allow_merging": true,
+    "nn_partitioning": true,
+    "coordinate_units": "degrees",
+    "lon": "0..360 wrapped"
+  },
+  "tools": {
+    "marEx": "4.1.2 (3444b093d40da130f845ac6ce99e5e105202864e)",
+    "numpy": "2.5.3",
+    "scipy": "1.18.1",
+    "xarray": "2026.9.0",
+    "dask": "2026.8.0",
+    "distributed": "2026.8.0",
+    "dask-image": "2026.5.0"
+  },
+  "files": {
+    "marex.npz": "6aff982373bc0c8837bd191e7ee1c2ebb4f3eeddded10d3584417a5e5d358f0c"
+  }
+}
